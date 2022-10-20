@@ -19,7 +19,9 @@ internal class Program
         //    }
         //}
 
+        //long test = DiskInformation.GetDirectoreCount(@"C:\", @"C:\F2");
 
+        WriteLine($"насчитали: {DiskInformation.GetDirectoreCount(@"C:\", @"C:\F2")}");
 
 
     }
@@ -61,6 +63,40 @@ class DiskInformation
         this.maxVolume = maxVolume;
         this.freeSpace = freeSpace;
     }
+
+    public static long GetDirectoreCount(string directory)
+    {
+        long dirCount = 0;
+        if (Directory.Exists(directory))
+        {
+            string[] dir = Directory.GetDirectories(directory);
+            string[] files = Directory.GetFiles(directory);
+
+            dirCount = dir.Length + files.Length;
+        }
+        return dirCount;
+    }
+    public static long GetDirectoreCount(string directory, string newFolder)
+    {
+        long dirCount = 0;
+        if (Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(newFolder);
+
+            string[] dir = Directory.GetDirectories(directory);
+            string[] files = Directory.GetFiles(directory);
+
+            WriteLine("Dir");
+            foreach (var item in dir) { WriteLine(item); }
+            WriteLine("Files");
+            foreach (var item in files) { WriteLine(item); }
+            
+            dirCount = dir.Length + files.Length;
+            WriteLine($"All:{dirCount}");
+        }
+        return dirCount;
+    }
+
 }
 
 public class Folder
