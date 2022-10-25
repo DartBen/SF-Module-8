@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.4.1", "8.4.1\8.4.1.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.4.3", "8.4.3\8.4.3.csproj", "{6FAFBA31-3D54-4DD3-9CD9-139073B47D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndFilesExtension", "DirectoryAndFilesExtension\DirectoryAndFilesExtension.csproj", "{54EA8FB9-60DA-46DB-8423-D3DFA55991CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryAndFilesExtension", "DirectoryAndFilesExtension\DirectoryAndFilesExtension.csproj", "{54EA8FB9-60DA-46DB-8423-D3DFA55991CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW Test", "HW Test\HW Test.csproj", "{E578DF0F-186F-4AF5-B174-26EA7E979FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW Test", "HW Test\HW Test.csproj", "{E578DF0F-186F-4AF5-B174-26EA7E979FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalTask", "FinalTask\FinalTask.csproj", "{C8F414B9-5B7C-47EB-8A0A-7AEEB3E654B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{E578DF0F-186F-4AF5-B174-26EA7E979FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E578DF0F-186F-4AF5-B174-26EA7E979FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E578DF0F-186F-4AF5-B174-26EA7E979FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F414B9-5B7C-47EB-8A0A-7AEEB3E654B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F414B9-5B7C-47EB-8A0A-7AEEB3E654B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F414B9-5B7C-47EB-8A0A-7AEEB3E654B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F414B9-5B7C-47EB-8A0A-7AEEB3E654B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
